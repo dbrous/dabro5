@@ -1,10 +1,11 @@
 {
-  "name": "shareboard",
+  "name": "webboard",
   "version": "1.0.0",
-  "description": "A collaborative drawing story board using Node.js, React.js and Socket.io",
+  "description": "A collaborative webboard",
   "main": "app.js",
   "scripts": {
-    "test": "node app.js"
+    "test": "node app.js",
+    "start": "node app.js"
   },
   "keywords": [
     "react.js",
@@ -13,11 +14,11 @@
     "canvas",
     "fabric.js"
   ],
-  "author": "franklintarter@gmail.com",
+  "author": "d_a_brous@yahoo.co.uk",
   "license": "ISC",
   "dependencies": {
-    "body-parser": "^1.4.3",
-    "express": "^4.13.4",
-    "socket.io": "^1.3.7"
+    "body-parser": "latest",
+    "express": "latest",
+    "socket.io": "latest"
   }
 }
